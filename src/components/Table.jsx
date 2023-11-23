@@ -84,7 +84,7 @@ const Table = (p) => {
             }),
             {
                 numero: cant,
-                name: `Jugador N.º ${cant}`,
+                name: `Jugador N.º ${cant+1}`,
                 ronda1: newRonda1,
                 ronda2: newRonda2,
                 ronda3: newRonda3,
