@@ -34,7 +34,7 @@ const NavBar = () => {
                 <div className="flex lg:flex-1">
                     <Link to="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Your Company</span>
-                        <img className="h-8 w-auto" src={Logo} alt="" />
+                        <img className="h-20 w-auto" src={Logo} alt="" />
                     </Link>
                 </div>
                 <div className="flex lg:hidden">
@@ -106,7 +106,7 @@ const NavBar = () => {
                         <Link to="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">PYE</span>
                             <img
-                                className="h-8 w-auto"
+                                className="h-20 w-auto"
                                 src={Logo}
                                 alt=""
                             />
