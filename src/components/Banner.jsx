@@ -1,10 +1,10 @@
-import BannerFoto from '../assets/Banner.jpg';
+import BannerFoto from '../assets/banner.jpg';
 
 const Banner = (props) => {
     return (
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
             <img
-                src={BannerFoto.src}
+                src={BannerFoto}
                 alt=""
                 className="absolute inset-0 -z-10 h-full w-full object-cover"
             />
