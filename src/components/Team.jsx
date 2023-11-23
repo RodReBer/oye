@@ -77,6 +77,7 @@ const Team = () => {
                 <li>
                   <a
                     href={person.linkedinUrl}
+                    target="_blank"
                     className="text-gray-400 hover:text-gray-300"
                   >
                     <span className="sr-only">LinkedIn</span>

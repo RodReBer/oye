@@ -64,7 +64,7 @@ const Home = () => {
                 </p>
                 <p className="mt-8">
                   Inspirados por la teoría del modelo geom&eacute;trico, abordamos las
-                  probabilidades de ganar para{" "}
+                  probabilidades de ganar para
                   <span className="font-bold text-[#11f120]">N</span> jugadores
                   con un enfoque serio y formal.
                 </p>
@@ -72,7 +72,7 @@ const Home = () => {
               <div>
                 <p>
                   Adéntrate con nosotros en este análisis meticuloso que destaca
-                  la importancia de la probabilidad{" "}
+                  la importancia de la probabilidad
                   <span className="font-bold text-[#11f120]">P</span> en la toma
                   de decisiones informadas.
                 </p>
