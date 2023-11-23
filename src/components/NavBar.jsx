@@ -1,6 +1,7 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import { Link } from 'react-router-dom'
+import Logo from '../assets/logo.png'
 import {
     ArrowPathIcon,
     Bars3Icon,
@@ -33,7 +34,7 @@ const NavBar = () => {
                 <div className="flex lg:flex-1">
                     <Link to="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Your Company</span>
-                        <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+                        <img className="h-8 w-auto" src={Logo} alt="" />
                     </Link>
                 </div>
                 <div className="flex lg:hidden">
@@ -106,7 +107,7 @@ const NavBar = () => {
                             <span className="sr-only">PYE</span>
                             <img
                                 className="h-8 w-auto"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                src={Logo}
                                 alt=""
                             />
                         </Link>
