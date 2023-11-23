@@ -63,7 +63,7 @@ const Home = () => {
                   en las precisiones estadísticas en el ámbito de los juegos.
                 </p>
                 <p className="mt-8">
-                  Inspirados por la teoría de Poisson, abordamos las
+                  Inspirados por la teoría del modelo geom&eacute;trico, abordamos las
                   probabilidades de ganar para{" "}
                   <span className="font-bold text-[#11f120]">N</span> jugadores
                   con un enfoque serio y formal.
